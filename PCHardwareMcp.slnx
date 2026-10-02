@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Build-Installer.ps1" />
+    <File Path="Install-PCHardwareMcp.ps1" />
+    <File Path="Check-PCHardwareMcp.ps1" />
+    <File Path="installer/PCHardwareMcp.iss" />
+  </Folder>
+  <Project Path="src/PCHardwareMcp.Core/PCHardwareMcp.Core.csproj" />
+  <Project Path="src/PCHardwareMcp.Service/PCHardwareMcp.Service.csproj" />
+  <Project Path="src/PCHardwareMcp.Server/PCHardwareMcp.Server.csproj" />
+</Solution>

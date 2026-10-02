@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "selftest": {
+      "commandName": "Project",
+      "commandLineArgs": "--selftest --out ..\\..\\..\\..\\..\\artifacts\\selftest.txt",
+      "environmentVariables": {
+        "PCHARDWAREMCP_TRUST_ANY_SERVICE": "1"
+      }
+    },
+    "mcp (stdio)": {
+      "commandName": "Project"
+    }
+  }
+}

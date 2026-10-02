@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>PCHardwareMcp.Server</RootNamespace>
+    <AssemblyName>PCHardwareMcp.Server</AssemblyName>
+    <Version>0.1.0</Version>
+    <!-- stdout is the MCP channel: never let the host print banners there -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" Version="1.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PCHardwareMcp.Core\PCHardwareMcp.Core.csproj" />
+  </ItemGroup>
+
+</Project>
