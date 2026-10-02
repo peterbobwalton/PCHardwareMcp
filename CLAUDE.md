@@ -1,5 +1,7 @@
 # PCHardwareMcp
 
+Repo: https://github.com/peterbobwalton/PCHardwareMcp (private)
+
 C# (.NET 10, `net10.0-windows`) MCP server exposing CPU-Z/HWiNFO-style hardware info via LibreHardwareMonitor.
 See README.md for architecture (stdio server -> named pipe -> LocalSystem service) and the tool list.
 
